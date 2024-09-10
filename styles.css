@@ -1,0 +1,45 @@
+/* styles.css */
+
+/* Change background color */
+.main {
+    background-color: #141414;
+}
+
+/* Change sidebar menu color */
+.css-18e3th9 {
+    background-color: #565448;
+}
+
+/* Change text color in the sidebar */
+.css-1d391kg h1, h2, h3, h4, h5, h6 {
+    color: #FFFFFF;
+}
+
+
+
+/* Change the text color of other elements in sidebar */
+.css-1d391kg p, .css-1d391kg label {
+    color: #FFFFFF;
+}
+
+/* Optional: Modify fonts or other styles */
+.block-container {
+    font-family: 'Arial', sans-serif;
+    color: #FFFFFF;
+}
+
+/* Style for buttons */
+button, .stButton>button {
+    background-color: #565448; /* Dark background */
+    color: white; /* White text */
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover, .stButton>button:hover {
+    background-color: #706C61; /* Slightly lighter color on hover */
+}
+
+

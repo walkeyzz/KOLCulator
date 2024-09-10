@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Register</title>
+    <style>
+        body {
+            background-image: url('background.jpeg');
+            background-size: cover; /* Adjust the background image size */
+            background-position: center; /* Center the image */
+            background-repeat: no-repeat; /* Do not repeat the image */
+            height: 100vh; /* Full viewport height */
+        }
+
+        .wrapper{
+            margin-left: 68px;
+            padding-top: 220px;
+        }
+
+        .wrapper h2{
+            font-size: 40px;
+            margin-bottom: -50px;
+        }
+
+        .wrapper .input-box{
+            width: 20%;
+            height: 50px;
+            margin: 65px 0;
+        }
+
+        .input-box input{
+            width: 100%;
+            height: 100%;
+            background: transparent;
+            border: none;
+            outline: none;
+            background: gray;
+            border-radius: 40px;
+            font-size: 30px;
+            margin-top: 15px;
+            padding: 5px 20px 5px 20px;
+        }
+
+        .input-box label{;
+            font-size: 25px;
+            font-weight: 600;
+        }
+
+        .mt-2{
+            margin-top: 20px;
+        }
+
+        .wrapper button{
+            margin-top: 15px;
+            border-radius: 40px;
+            height: 45px;
+            width: 10%;
+            background-color: gray;
+            font-size: 15px;
+        }
+
+        .wrapper .login{
+            text-decoration: underline;
+            font-size: 14.5px;
+            margin-top: 20px;
+
+            a{
+                color: black;
+                font-weight: 800;
+            }
+        }
+
+    </style>
+</head>
+<body>
+    <div class="wrapper">
+        <h2>Register</h2>
+        <form method="POST">
+            <div class="input-box">
+                <label>Username</label>
+                <input type="text" name="username" required><br>
+            </div>
+            <div class="input-box">
+                <label>Password</label>
+                <input type="password" name="password" required><br>
+            </div>
+            <div class="input-box">
+                <label>Confirm Password</label>
+                <input type="confirm_password" name="confirm_password" required><br>
+            </div>
+            <button type="submit">Register</button>
+            <div class="login">
+                <a href="login.html">Have an account? Log in here!</a>
+            </div>
+        </form>
+    </div>
+</body>
+</html>
